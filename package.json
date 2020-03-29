@@ -1,6 +1,6 @@
 {
   "name": "gustavguez-eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Configuration for eslint",
   "main": "index.js",
   "repository": {
@@ -10,9 +10,16 @@
   "keywords": [
     "eslint"
   ],
-  "author": { 
-	  "name" : "Gustavo Rodríguez", 
-   	  "email" : "gustavguez@gmail.com", 
-	  "url" : "http://gustavorodriguez.com.uy"
+  "author": {
+    "name": "Gustavo Rodríguez",
+    "email": "gustavguez@gmail.com",
+    "url": "http://gustavorodriguez.com.uy"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "eslint": "^6.8.0",
+    "typescript": "~3.7.5"
   }
 }
