@@ -219,5 +219,10 @@ module.exports = {
 	// SOURCE: eslint:recommended
 	// URL: https://eslint.org/docs/rules/space-in-parens
 	// Disallow or enforce spaces inside of parentheses
-	"space-in-parens": "error"
+	"space-in-parens": "error",
+
+	// SOURCE: eslint:recommended
+	// URL: https://eslint.org/docs/rules/spaced-comment
+	// Requires or disallows a whitespace (space or tab) beginning a comment
+	"spaced-comment": "error"
 };
