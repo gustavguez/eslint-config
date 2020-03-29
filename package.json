@@ -8,7 +8,13 @@
     "url": "git+https://github.com/gustavguez/eslint-config.git"
   },
   "keywords": [
-    "eslint"
+	"eslint",
+	"eslint-plugin",
+	"typescrip",
+	"angular",
+	"eslint for angular",
+	"angular2+",
+	"eslint angular cli"
   ],
   "author": {
     "name": "Gustavo Rodríguez",
