@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "Configuration for eslint",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavguez/eslint-config.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Gustavo Rodríguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavguez/eslint-config/issues"
+  },
+  "homepage": "https://github.com/gustavguez/eslint-config#readme"
+}
