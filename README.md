@@ -16,6 +16,12 @@ $ npm i -D eslint @typescript-eslint/parser
 $ npm i -D eslint @typescript-eslint/eslint-plugin-tslint
 ```
 
+## Install
+Install command:
+```sh
+$ npm i -D eslint gustavguez-eslint-config
+```
+
 ## Example of use
 Ensure to place this code in **.eslintrc.js** in project root.
 ```javascript
