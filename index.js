@@ -1,24 +1,15 @@
-const rules = require('./src');
 
 module.exports = {
-    "env": {
-        "browser": true,
-        "es6": true,
-        "node": true
-    },
-    "extends": [
-        "eslint:recommended",
-		"plugin:@typescript-eslint/eslint-recommended",
-		"plugin:@typescript-eslint/recommended",
-		"plugin:@typescript-eslint/recommended-requiring-type-checking"
-    ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "project": "tsconfig.json",
-        "sourceType": "module"
-    },
-    "plugins": [
-        "@typescript-eslint"
-    ],
-    "rules": { ...rules }
+	extends: [
+		'./rules/possible-errors',
+		'./rules/best-practices',
+		'./rules/variables',
+		'./rules/stylistic',
+		'./rules/ecmascript-6'
+	].map(require.resolve),
+	parserOptions: {
+		ecmaVersion: 2018,
+		sourceType: 'module',
+	},
+	rules: {},
 };
