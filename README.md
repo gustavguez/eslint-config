@@ -27,7 +27,7 @@ Ensure to place this code in **.eslintrc.js** in project root.
 ```javascript
 module.exports = {
     extends: [
-		'gustavguez-eslint-config'
+		'@gustavguez/eslint-config'
 	].map(require.resolve),
     parserOptions: {
         project: "tsconfig.json",
