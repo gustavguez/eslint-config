@@ -19,7 +19,7 @@ $ npm i -D eslint @typescript-eslint/eslint-plugin-tslint
 ## Install
 Install command:
 ```sh
-$ npm i -D eslint gustavguez-eslint-config
+$ npm i -D eslint @gustavguez/eslint-config
 ```
 
 ## Example of use
